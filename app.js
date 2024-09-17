@@ -6,7 +6,6 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    console.log('Falando:', texto);
 }
 
 function exibirMensagemInicial() {
